@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Nft Me</title>
+    <style>
+        *{
+            margin: 0 auto;
+            color: black;
+            box-sizing: border-box;
+            padding: 0 auto;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        html {
+            background-color: grey;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: palevioletred;
+        }
+
+        header nav ul {
+            display: flex;
+            list-style: none;
+            gap: 100px;
+            padding: 30px;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            padding: 3px;
+        }
+        header nav ul li a:hover {
+            transition: 0.5s;
+            background-color: aqua;
+        }
+
+        header strong {
+            background-color: aqua;
+            width: 20%;
+            font-size: 25px;
+            text-align: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-left: 20px;
+            padding-top: 9px;
+            padding-bottom: 9px;
+        }
+
+        main{
+            height: 50vh;
+            border: 1px solid;
+            background-color: aqua;
+            display: flex;
+            margin-top: 5px;
+        }
+        main h1 {
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 60px;
+            padding-top: 40px;
+            text-transform: capitalize;
+            
+        }
+        main div {
+            background-color: #fff;
+            
+            width: 50%;
+            height: 100%;
+            float: right;
+            background-color: palevioletred;
+            box-shadow: rgba(0, 0, 0, 1);
+        }
+        .btn {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn button {
+            padding: 10px;
+            border-radius: 60px;
+            font-size: xx-large;
+            background-color: aqua;
+        }
+
+        .btn button a {
+            text-decoration: none;
+            color: #333;
+            font-size: 40px;
+        }
+        .btn button a:hover {
+            background-color: palevioletred;
+            border-radius: 50px;
+            transition: 0.5s;
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 5px;
+            margin-top: 20px;
+            
+        }
+        .col1 {
+            border: 1px solid black;
+            width: 80%;
+            text-align: center;
+            font-size: 19px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: aqua;
+            line-height: 50px;
+            
+            
+        }
+        .col2 {
+            border: 1px solid black;
+            width: 80%;
+            text-align: center;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: aqua;
+            line-height: 50px;
+        }
+        .col3 {
+            border: 1px solid black;
+            width: 80%;
+            text-align: center;
+            font-size: 19px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: aqua;
+            line-height: 50px;
+            
+        }
+        form fieldset{
+            width: 100%;
+            padding-top: 25px;
+            text-transform: uppercase;
+            
+            
+        }
+
+        
+
+
+    </style>
+</head>
+<body>  
+        <header>
+            <strong>CHRISTIAN<br> PLACE</strong>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+
+                </ul>
+            </nav>
+        </header>
+
+    <main>
+        <h1>welcome <br>
+        You wanna Trade?</h1>
+    <div class="btn"> 
+        <button><a href="#">CLICK ME</a></button>
+    </div>
+    </main>
+
+    <section>
+        <div class="col1"><h2>About</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, quis nemo reprehenderit rerum quam animi esse libero ipsam obcaecati minus, laboriosam quaerat voluptate,
+             nisi cumque? Repudiandae laboriosam rerum quo pariatur!</p></div>
+        <div class="col2">
+            <h2>Contact Us</h2>
+        <form>
+            <fieldset>
+        <label for="name">Name :</label>
+        <input type="text" id="name"><br>
+        <label for="email">Email :</label>
+        <input type="text" id="email"><br>
+       <button>REACH US</button>
+    </fieldset>
+        </form>
+        </div>
+        <div class="col3">
+            <h2>Services</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel similique doloribus odit sunt, veritatis dolore cupiditate nostrum dolor voluptas amet corporis, neque maxime aperiam voluptate, et illo repellat sequi sapiente.</p>
+        </div>
+    </section>
+        
+    </div>
+</body>
+</html>
